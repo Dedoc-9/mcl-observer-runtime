@@ -11,6 +11,9 @@ This SDK compares *descriptions* of a system across multiple geometries
 (encoders) and reports where those descriptions agree, disagree, and break
 under perturbation. It is deterministic, hash-chained, and auditable.
 
+This runtime is a disagreement compiler over multiple representations of the same system: a deterministic mechanism for detecting when several imperfect descriptions stop referring to the same underlying structure. 
+It is not a clustering tool, truth detector, or safety layer — it issues consistency judgments over heterogeneous observation maps, certifying agreement and localizing divergence while asserting nothing about which view is correct. It becomes structurally indispensable, rather than merely useful, under two joint conditions: correctness is constituted by agreement among irreducible partial views, and no tractable equivalence oracle exists. Three system classes satisfy both — distributed systems, where no global state exists and convergence of replica views is the correctness criterion itself; multi-agent and LLM orchestration systems, where each agent is a distinct encoder of the world and the runtime distinguishes shared structure from merely shared language; and long-lived software systems, where it detects drift in meaningful geometry that tests cannot see. In all three, its economic force is the same: it replaces repeated full-context reconstruction and natural-language reconciliation with one compact structural object per view and one comparison operator between them — a minimal communication interface for systems in which no single representation is authoritative.
+
 **The one rule** (enforced in code, not just documentation):
 
 > All outputs are statements about agreement between observers —
