@@ -1,0 +1,49 @@
+{
+  "schema": "SIR-1.2",
+  "required_sections": [
+    "protocol",
+    "kernel_version",
+    "n_traces",
+    "partition",
+    "barcode",
+    "atlas",
+    "epsilon",
+    "reliability",
+    "coupling",
+    "consistency",
+    "gate",
+    "seeds",
+    "section_hashes",
+    "chain_hash",
+    "provenance"
+  ],
+  "required_seeds": [
+    "reliability_seed",
+    "coupling_seed",
+    "epsilon_seed"
+  ],
+  "bounds": {
+    "reliability.defect_rate": [
+      0.0,
+      1.0
+    ],
+    "coupling.defect_tensor": [
+      0.0,
+      1.0
+    ],
+    "barcode.operating_margin": [
+      0.0,
+      100.0
+    ],
+    "partition.tau": [
+      0.0,
+      100.0
+    ]
+  },
+  "required_provenance": [
+    "metric_fingerprint",
+    "kernel_fingerprint",
+    "python_version",
+    "platform"
+  ]
+}

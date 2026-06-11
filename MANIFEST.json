@@ -1,0 +1,33 @@
+{
+  "author": "Daniel Dillberg <bigdilly95@gmail.com>",
+  "contract": "observer_agreement_only",
+  "files": {
+    ".gitignore": "a8fee382cf0c6219",
+    "LICENSE": "54693d043754c9a7",
+    "MANIFEST.in": "57f6a94071cf1a44",
+    "README.md": "1a3b5ac385135350",
+    "docs/LLM_HANDOFF.md": "a9055bf28ca0a476",
+    "docs/USAGE.md": "2cfb06560d2c2a40",
+    "examples/desync_demo.py": "9a29b2c0d39bc64f",
+    "examples/llm_monitor_example.py": "4c0df1c08a077cb7",
+    "examples/procedural_check.py": "7ed2e1cca134c899",
+    "mcl_sdk/__init__.py": "dcd5601d0c1bdbec",
+    "mcl_sdk/analyze.py": "49cf4386753b3639",
+    "mcl_sdk/drift_monitor.py": "dd36d925d879eed5",
+    "mcl_sdk/encoders.py": "bce1b42077038e99",
+    "mcl_sdk/llm_adapter.py": "2e1f493da97af29e",
+    "mcl_sdk/mcl_kernel.py": "b094956d50982375",
+    "mcl_sdk/procedural_triage.py": "5a0059cf28e0cc20",
+    "mcl_sdk/separability_engine.py": "7eb706506f7eb382",
+    "mcl_sdk/simulation.py": "fe36810fd4f9cfb7",
+    "mcl_sdk/sir_runtime.py": "fb24f27afae66d40",
+    "mcl_sdk/sir_schema.json": "e6bcf9a5b446daca",
+    "mcl_sdk/utils.py": "b56a9855b16654d4",
+    "pyproject.toml": "879f7cb98aae9334",
+    "setup.cfg": "39204e405bdb5c95",
+    "tests/test_sdk.py": "c532d72f9580d8bc"
+  },
+  "license": "AGPL-3.0-or-later",
+  "name": "mcl-observer-runtime",
+  "version": "1.0.0"
+}

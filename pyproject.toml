@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcl-observer-runtime"
+version = "1.0.0"
+description = "Observer-relative structure diagnostics: divergence detection, content triage, trajectory drift"
+authors = [{name = "Daniel Dillberg", email = "bigdilly95@gmail.com"}]
+license = {text = "AGPL-3.0-or-later"}
+keywords = ["clustering", "stability", "diagnostics", "observability", "deterministic"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = []
+
+[project.urls]
+Contact = "mailto:bigdilly95@gmail.com"
+
+[tool.setuptools]
+packages = ["mcl_sdk"]
+
+[tool.setuptools.package-data]
+mcl_sdk = ["sir_schema.json"]
